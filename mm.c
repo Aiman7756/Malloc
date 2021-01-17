@@ -399,3 +399,4 @@ block_t* block = segList[index];
 for (block = *(segList + index); block != NULL; block = block->body.next){
     checkblock(block);
 }
+}
